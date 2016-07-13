@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:elevation="4dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="8dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="12sp"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="12sp"
+                        android:layout_weight="0.4"
+                        android:weightSum="4"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="ROOT ACCESS:"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#707c84"
+                            android:textSize="16sp"
+                            android:layout_weight="1"
+                            android:text="SUPER USER:"
+                            android:padding="8dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#707c84"
+                            android:textSize="16sp"
+                            android:text="BUSY BOX:"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#707c84"
+                            android:textSize="16sp"
+                            android:text="BUSY BOX VERSION:"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#707c84"
+                            android:textSize="16sp"
+                            android:text="PATH:"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="12sp"
+                        android:weightSum="4"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="10sp"
+                            android:text="Device is not rooted"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:id="@+id/tv_root_access" />
+
+
+                        <TextView
+                            android:layout_width="170sp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="10sp"
+                            android:text="SU NOT FOUND"
+                            android:padding="8dp"
+                            android:id="@+id/tv_super_user" />
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#279c32"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="10sp"
+                            android:text="Busy box is installed"
+                            android:padding="8dp"
+                            android:layout_weight="1"
+                            android:id="@+id/tv_busy_box" />
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#279c32"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="10sp"
+                            android:text="Busy box vresion"
+                            android:padding="8dp"
+                            android:layout_weight="1"
+                            android:id="@+id/tv_busy_box_ver" />
+
+
+
+                        <TextView
+                            android:layout_width="170sp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#373e38"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="10sp"
+                            android:text="[/sbin,/vendor/bin,/system/,sbin/system/bin,]"
+                            android:textStyle="italic"
+                            android:paddingLeft="8dp"
+                            android:paddingBottom="8dp"
+                            android:paddingRight="8dp"
+                            android:paddingTop="24dp"
+                            android:layout_weight="1"
+                            android:id="@+id/tv_path" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_sim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="8dp"
+            android:layout_marginBottom="4dp"
+            android:elevation="4dp"
+            android:layout_marginTop="4dp">
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    </ScrollView>

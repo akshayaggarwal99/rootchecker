@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "589283168286",
+    "project_id": "root-checker-advance"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589283168286:android:0cf0a3df1c7d9d26",
+        "android_client_info": {
+          "package_name": "com.aka.rootchecker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATfpgsCO9AUaaXozg-F12cY1_LgON_Of0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-75031919-3"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

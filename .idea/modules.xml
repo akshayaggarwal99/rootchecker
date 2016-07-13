@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RootCheckeraka.iml" filepath="$PROJECT_DIR$/RootCheckeraka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RootTools/RootTools.iml" filepath="$PROJECT_DIR$/RootTools/RootTools.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rootchecker.iml" filepath="$PROJECT_DIR$/rootchecker.iml" />
     </modules>
   </component>
 </project>

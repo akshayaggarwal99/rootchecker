@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical"
+    android:background="@color/material_grey_300"
+    android:padding="@dimen/frame_layout_padding"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:apc="http://schemas.android.com/apk/lib/com.root.rootcheck">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">`
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <android.support.v7.widget.CardView
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    apc:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/primaryTextColor"
+                            android:paddingLeft="10.0dip"
+                            android:paddingTop="10.0dip"
+                            android:paddingBottom="10.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="What is root?"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:paddingLeft="10.0dip"
+                            android:paddingTop="10.0dip"
+                            android:paddingBottom="10.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rooting is jailbreaking for Androids, and allows users to dive deeper into a phone’s sub-system. Essentially, it’ll allow you to access the entire operating system and customize just about anything on your Android. With root access, you can also get around any restrictions that your manufacturer or carrier may have applied. You can run more apps, you can overclock or underclock your processor, and you can replace the firmware."
+                            android:layout_centerHorizontal="true"
+                            android:lineSpacingMultiplier="1.5" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    apc:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:paddingBottom="90.0dip"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/primaryTextColor"
+                            android:paddingLeft="10.0dip"
+                            android:paddingTop="10.0dip"
+                            android:paddingBottom="10.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Why do you root?"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:paddingLeft="10.0dip"
+                            android:paddingTop="10.0dip"
+                            android:paddingBottom="10.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingMultiplier="1.5"
+                            android:text="One of the most obvious incentives to root your Android device is to rid yourself of the bloatware that’s impossible to uninstall. You’ll be able to set up wireless tethering, even if it has been disabled by default. Additional benefits include the ability to install special apps and flash custom ROMs, each of which can add extra features and streamline your phone or tablet’s performance. A lot of people are tempted by the ability to completely customize the look of their phones. You can also manually accept or deny app permissions."
+                            android:layout_centerHorizontal="true" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+
+        <!--<com.google.android.gms.ads.AdView-->
+            <!--android:layout_gravity="bottom|center"-->
+            <!--android:id="@+id/adView3"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="44.0dip"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:foregroundGravity="bottom"-->
+            <!--ads:adSize="BANNER"-->
+            <!--ads:adUnitId="@string/banner_ad_unit_id" />-->
+    </RelativeLayout>
+</FrameLayout>
